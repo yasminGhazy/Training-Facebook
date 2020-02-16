@@ -1,0 +1,70 @@
+#header {
+    background-color: #3b5998;
+ clear :both;
+ overflow: auto;
+}
+#logo{
+    margin-top: 17px;
+    margin-left: 170px;
+    width: 250px;
+    height: 90px;
+    float: left;
+}
+#sign{
+display: block;
+float: right;
+margin: 30px;
+width: auto;
+height: auto;
+margin-right: 170px;
+}
+#body{
+    background-color: #eff1f7;
+    width: auto;
+    height:1000px;
+    clear:both;
+}
+#Register{
+    float: right;
+    margin: 50px;
+    height: auto;
+    width: auto;
+    margin-right: 200px;
+    
+}
+#map{
+    width: auto;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 50px;
+    float: left;
+}
+div.label{
+    color: white;
+}
+div#body h2{
+width: 500px;
+}
+#LoginBtn{
+    background-color: #3b68bb;
+    border-color: #3b68bb;
+    color: white;
+}
+div#sign label{
+    color: white;
+margin-right: 80px;
+text-align: left;
+}
+div#sign input{
+    padding: 5px;
+}
+#register p{
+    width: 5px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+}
+h5{
+    width: 400px;
+}
