@@ -26,14 +26,14 @@ margin-right: 170px;
 }
 #Register{
     float: right;
-    margin: 50px;
+    margin: 30px;
     height: auto;
-    width: auto;
-    margin-right: 200px;
+    width: 400px;
+    margin-right: 100px;
     
 }
 #map{
-    width: auto;
+    width: 400px;
     height: auto;
     margin-left: 200px;
     margin-top: 50px;
@@ -66,5 +66,5 @@ a{
     text-decoration: none;
 }
 h5{
-    width: 400px;
+    width: 300px;
 }
