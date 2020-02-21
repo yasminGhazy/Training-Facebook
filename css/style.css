@@ -1,67 +1,80 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 header {
-background-color: #3b5998;
-overflow: auto;
+    background-color: #3b5998;
+    overflow: auto;
 }
-#logo{
+
+#logo {
     margin-top: 17px;
     margin-left: 170px;
     width: 250px;
     height: 80px;
     float: left;
-    border:0;
+    border: 0;
 }
-#sign{
-float: right;
-margin: 30px;
-margin-right: 170px;
+
+#sign {
+    float: right;
+    margin: 30px;
+    margin-right: 170px;
 }
-main{
+
+main {
     background-color: #eff1f7;
-    min-height:700px;
-    clear:both;
+    min-height: 700px;
+    clear: both;
 }
-#register{
+
+#register {
     float: right;
     margin: 30px;
     width: 400px;
     margin-right: 100px;
-    
 }
-#map{
+
+#map {
     width: 400px;
     margin-left: 200px;
     margin-top: 50px;
     float: left;
 }
-.label{
+
+.label {
     color: white;
 }
-#body h2{
-width: 500px;
+
+#body h2 {
+    width: 500px;
 }
-#LoginBtn{
+
+#LoginBtn {
     background-color: #3b68bb;
     border-color: #3b68bb;
     color: white;
 }
-#sign label{
+
+#sign label {
     color: white;
-margin-right: 80px;
-text-align: left;
+    margin-right: 80px;
+    text-align: left;
 }
-#sign input{
+
+#sign input {
     padding: 5px;
 }
-#register p{
+
+#register p {
     width: 5px;
     height: 20px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-h5{
+
+h5 {
     width: 300px;
 }
