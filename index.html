@@ -9,97 +9,106 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<div id="header">
-    <div>
-        <input type="image" src="logo.png" id="logo" title="Go to Facebook Home">
-    </div>
-    <div id="sign">
-        <form>
-            <label for="Email">Email or phone</label> 
-            <label for="password">password </label>
-            <br>
-            <input type="text" name="Email">
-            <input type="password" name="password">
-            <input type="submit" value="Log in" id="LoginBtn">
-        </form>
-    </div>
-</div>
+<body>
+    <header>
+        <div>
+            <img src="images/logo.png" alt="Facebook logo" id="logo" title="Go to Facebook Home">
 
-<div id=body>
-    <div id="map">
-        <h2>
-            <strong>Facebook helps you connect and share with the people in your life.</strong>
-        </h2>
-        <img src="map.PNG">
+        </div>
+        <div id="sign">
+            <form>
+                <label for="Email">Email or phone</label>
+                <label for="password">password </label>
+                <br>
+                <input type="text" name="Email">
+                <input type="password" name="password">
+                <input type="submit" value="Log in" id="LoginBtn">
+            </form>
+        </div>
+    </header>
 
-    </div>
-    <div id="Register">
+    <main>
+        <section id="map">
+            <h2>
+                <strong>Facebook helps you connect and share with the people in your life.</strong>
+            </h2>
+            <img src="images/map.PNG" alt="map">
 
-        <form>
-            <h1>Create a new account</h1>
-            <h3> It's quick and easy.</h3>
-            <input type="text" name="1stname" placeholder="first name">
-            <input type="text" name="Surname" placeholder="Surname">
-            <br><br>
-            <input type="email" placeholder="Mobile number or email address">
-            <br><br>
-            <input type="password" placeholder="New Password"><br>
+        </section>
+        <section id="register">
 
-            <h3> Birthday</h3>
-            <select name="day">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
+            <form>
+                <h1>Create a new account</h1>
+                <h3> It's quick and easy.</h3>
+                <input type="text" name="1stname" placeholder="first name">
+                <input type="text" name="Surname" placeholder="Surname">
+                <br><br>
+                <input type="email" placeholder="Mobile number or email address">
+                <br><br>
+                <input type="password" placeholder="New Password"><br>
 
-            </select>
-            <select name="month">
-                <option>jan</option>
-                <option>feb</option>
-                <option>mar</option>
-                <option>apr</option>
-                <option>may</option>
-                <option>jun</option>
-                <option>jul</option>
-                <option>aug</option>
-                <option>sep</option>
-                <option>oct</option>
-                <option>nov</option>
-                <option>dec</option>
+                <h3> Birthday</h3>
 
-            </select>
-            <select name="year">
-                <option>1999</option>
-                <option>1998</option>
-                <option>1997</option>
-                <option>1996</option>
-
-            </select>
+                <select name="day" id="name">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">6</option>
 
 
-            <h3> Gender</h3>
 
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Other</label>
-            <br><br>
+                </select>
+                <select name="month" id="month">
+                    <option value="jan">jan</option>
+                    <option value="feb">feb</option>
+                    <option value="mar">mar</option>
+                    <option value="apr">apr</option>
+                    <option value="may">may</option>
+                    <option value="jun">jun</option>
+                    <option value="jul">jul</option>
+                    <option value="aug">aug</option>
+                    <option value="sep">sep</option>
+                    <option value="oct">oct</option>
+                    <option value="nov">nov</option>
+                    <option value="dec">dec</option>
 
-            <h5>By clicking Sign Up, you agree to our 
-                <a href="facebook"> Terms</a> ,
-                <a href="facebook">  Data Policy</a> and
-                <a href="facebook">  Cookie Policy</a> 
-                . You may receive SMS notifications from us and can opt out at any time.
-                </h6>
+                </select>
+                <select name="year">
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
 
+                </select>
+
+                <h3> Gender</h3>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <br><br>
+                <article>
+                    <h5>By clicking Sign Up, you agree to our
+                        <a href="facebook"> Terms</a> ,
+                        <a href="facebook"> Data Policy</a> and
+                        <a href="facebook"> Cookie Policy</a>
+                        . You may receive SMS notifications from us and can opt out at any time.
+                    </h5>
+                </article>
                 <input type="submit" value="sign up">
-        </form>
-        <h5><a href="facebook.com">Create a Page</a> for a celebrity, band or business.</h5>
-    </div>
-</div>
+            </form>
+
+            <article>
+                <h5>
+                    <a href="facebook.com">Create a Page</a>
+                    for a celebrity, band or business.</h5>
+            </article>
+        </section>
+    </main>
+</body>
 
 </html>

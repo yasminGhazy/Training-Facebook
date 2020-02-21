@@ -1,48 +1,45 @@
-#header {
-    background-color: #3b5998;
- clear :both;
- overflow: auto;
+*{
+    box-sizing: border-box;
+}
+header {
+background-color: #3b5998;
+overflow: auto;
 }
 #logo{
     margin-top: 17px;
     margin-left: 170px;
     width: 250px;
-    height: 90px;
+    height: 80px;
     float: left;
+    border:0;
 }
 #sign{
-display: block;
 float: right;
 margin: 30px;
-width: auto;
-height: auto;
 margin-right: 170px;
 }
-#body{
+main{
     background-color: #eff1f7;
-    width: auto;
-    height:1000px;
+    min-height:700px;
     clear:both;
 }
-#Register{
+#register{
     float: right;
     margin: 30px;
-    height: auto;
     width: 400px;
     margin-right: 100px;
     
 }
 #map{
     width: 400px;
-    height: auto;
     margin-left: 200px;
     margin-top: 50px;
     float: left;
 }
-div.label{
+.label{
     color: white;
 }
-div#body h2{
+#body h2{
 width: 500px;
 }
 #LoginBtn{
@@ -50,12 +47,12 @@ width: 500px;
     border-color: #3b68bb;
     color: white;
 }
-div#sign label{
+#sign label{
     color: white;
 margin-right: 80px;
 text-align: left;
 }
-div#sign input{
+#sign input{
     padding: 5px;
 }
 #register p{
