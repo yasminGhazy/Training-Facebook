@@ -3,7 +3,7 @@
 >>
 >> Register to create new account
 >> # In progress 
->> add video instead picture
->> effictive responsive
+>> - add video instead picture.
+>> - effictive responsive.
 
 
